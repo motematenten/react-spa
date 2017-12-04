@@ -1,4 +1,8 @@
 # React SPA sample
+
+[![https://gyazo.com/443104d261f100819a009ddc145a3b21](https://i.gyazo.com/443104d261f100819a009ddc145a3b21.gif)](https://gyazo.com/443104d261f100819a009ddc145a3b21)
+
+
 ### Reference from
 - https://qiita.com/okamuuu/items/1b94ab69d1bc3fb82d27
 - https://github.com/okamuuu/fav-articles
