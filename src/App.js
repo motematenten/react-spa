@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link, NavLink, withRouter } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, NavLink, withRouter } from 'react-router-dom'
 
 import Articles from './Articles'
 
