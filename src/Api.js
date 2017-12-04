@@ -5,7 +5,7 @@ import parse from 'parse-link-header'
 // https://github.com/mzabriskie/axios/issues/305#issuecomment-233141731
 // for jest. force the node adapter
 
-if (process.env.NODE_ENV == "test") {
+if (process.env.NODE_ENV === "test") {
     axios.defaults.adapter = httpAdapter;
 }
 
@@ -25,7 +25,7 @@ export default class Api {
     }
 
     listFavariteArticles(page = 1) {
-        return axois.get(`${this.baseUrl}/api/articles?isFavorite=true&_page=${page}&_limit=50`).then((res) => {
+        return axios.get(`${this.baseUrl}/api/articles?isFavorite=true&_page=${page}&_limit=50`).then((res) => {
             return {
                 "articles": res.data || [],
                 "links": parse(res.headers.link)
